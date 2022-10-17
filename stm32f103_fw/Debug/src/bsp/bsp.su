@@ -1,5 +1,5 @@
-../src/bsp/bsp.c:13:6:bspInit	16	static
-../src/bsp/bsp.c:23:6:delay	16	static
-../src/bsp/bsp.c:28:10:miliis	8	static
-../src/bsp/bsp.c:34:6:SystemClock_Config	72	static
-../src/bsp/bsp.c:76:6:Error_Handler	4	static,ignoring_inline_asm
+../src/bsp/bsp.c:14:6:bspInit	40	static
+../src/bsp/bsp.c:46:6:delay	16	static
+../src/bsp/bsp.c:51:10:miliis	8	static
+../src/bsp/bsp.c:57:6:SystemClock_Config	88	static
+../src/bsp/bsp.c:106:6:Error_Handler	4	static,ignoring_inline_asm
