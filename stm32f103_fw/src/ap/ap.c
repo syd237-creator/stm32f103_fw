@@ -8,20 +8,32 @@
 
 #include "ap.h"
 
-extern uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
 
 void apInit(void)
 {
-
+  uartOpen(_DEF_UART1, 57600);
 }
 
 void apMain(void)
 {
+  uint32_t pre_time;
+
+  pre_time = miliis();
   while(1)
   {
-    ledToggle(_DEF_LED1);
-    delay(1000);
+    if (miliis() - pre_time >= 500)
+    {
+      pre_time = miliis();
+      ledToggle(_DEF_LED1);
+    }
 
-    CDC_Transmit_FS("test\n", 6);
+    if(uartAvailable(_DEF_UART1) > 0)
+    {
+      uint8_t rx_data;
+
+      rx_data = uartRead(_DEF_UART1);
+
+      uartPrintf(_DEF_UART1, "RxData : %c 0x%X\n", rx_data, rx_data);
+    }
   }
 }

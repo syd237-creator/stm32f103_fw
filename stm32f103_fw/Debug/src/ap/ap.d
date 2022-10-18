@@ -29,7 +29,8 @@ src/ap/ap.o: ../src/ap/ap.c ../src/ap/ap.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/led.h \
- C:/Users/SEO/git/repository/stm32f103_fw/src/hw/hw_def.h
+ C:/Users/SEO/git/repository/stm32f103_fw/src/hw/hw_def.h \
+ C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/uart.h
 ../src/ap/ap.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/hw/hw.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/hw/hw_def.h:
@@ -62,3 +63,4 @@ C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL
 C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/led.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/hw/hw_def.h:
+C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/uart.h:
