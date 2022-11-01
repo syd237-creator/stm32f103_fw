@@ -27,10 +27,12 @@ src/hw/driver/uart.o: ../src/hw/driver/uart.c \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h \
+ C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h \
  C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h \
- C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/cdc.h
+ C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/cdc.h \
+ C:/Users/SEO/git/repository/stm32f103_fw/src/common/core/qbuffer.h
 C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/uart.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/hw/hw_def.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/common/def.h:
@@ -59,7 +61,9 @@ C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL
 C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rtc_ex.h:
+C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usb.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/lib/cube_f103/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pcd_ex.h:
 C:/Users/SEO/git/repository/stm32f103_fw/src/common/hw/include/cdc.h:
+C:/Users/SEO/git/repository/stm32f103_fw/src/common/core/qbuffer.h:
