@@ -1,6 +1,7 @@
-../src/hw/driver/uart.c:19:6:uartInit	16	static
-../src/hw/driver/uart.c:29:6:uartOpen	24	static
-../src/hw/driver/uart.c:44:10:uartAvailable	24	static
-../src/hw/driver/uart.c:57:9:uartRead	24	static
-../src/hw/driver/uart.c:71:10:uartWrite	32	static
-../src/hw/driver/uart.c:85:10:uartPrintf	292	static
+../src/hw/driver/uart.c:14:6:uartInit	16	static
+../src/hw/driver/uart.c:24:6:uartOpen	24	static
+../src/hw/driver/uart.c:39:10:uartAvailable	24	static
+../src/hw/driver/uart.c:52:9:uartRead	24	static
+../src/hw/driver/uart.c:66:10:uartWrite	32	static
+../src/hw/driver/uart.c:80:10:uartPrintf	292	static
+../src/hw/driver/uart.c:97:10:uartGetBaud	24	static
